@@ -1,0 +1,25 @@
+.item {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 30px;
+  margin: 20px auto;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.avatar {
+  width: 15%;
+  border-radius: 30%;
+  border: 0.3px solid lightgrey;
+  padding: 5px;
+  margin-left: 15px;
+}
+
+.name {
+  margin-left: 20px;
+}

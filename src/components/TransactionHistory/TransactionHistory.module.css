@@ -1,0 +1,19 @@
+.transaction_history{
+
+}
+
+thead {
+background: #666; /* Колір фону заголовка */
+color: #fff; /* Колір тексту */
+}
+
+table {
+width: 70%; /* Ширина таблиці */
+border-collapse: collapse; /* Прибираємо подвійні лінії між осередками */
+margin: 0 auto;
+}
+
+td, th {
+padding: 4px; /* Поля в комірках */
+border: 1px solid #999; /* Межа між осередками */
+}

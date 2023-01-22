@@ -1,0 +1,133 @@
+.profile {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+  background: #e7ecf2;
+  text-align: center;
+}
+
+.description {
+  padding: 50px 30px 5px 30px;
+  margin: 0 36%;
+  background-color: #ffffff;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 30px;
+  color: #000;
+}
+
+.tag {
+  color: #9fa3a6;
+}
+
+.location {
+  color: #9fa3a6;
+}
+
+/* List of stats */
+
+.stats {
+  display: inline-flex;
+  margin: 0 50px 0 10px;
+}
+
+.list_stats {
+  list-style-type: none;
+  background: #f2f6f9;
+  border: 1px solid #e7ebee;
+  padding: 20px 44px;
+}
+
+.label {
+  color: #9a9fa4;
+  font-size: 18px;
+}
+
+.quantity {
+  color: #27333e;
+}
+
+/* Media */
+
+@media screen and (max-width: 500px) {
+  .profile {
+    width: 100%;
+    padding: 10px 0;
+    background: #e7ecf2;
+    text-align: center;
+  }
+
+  .description {
+    padding: 30px 5px 5px 5px;
+    margin: 0;
+    background-color: #ffffff;
+  }
+
+  .avatar {
+    width: 120px;
+  }
+
+  .stats {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px 40px;
+    margin: 0 50px 0 10px;
+  }
+
+  .list_stats {
+    padding: 15px 30px;
+    background: #f2f6f9;
+    border: 1px solid #e7ebee;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .description {
+    margin: 0 calc(20% - 30px);
+  }
+
+  .stats {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px 40px;
+    margin: 0 50px 0 10px;
+  }
+
+  .list_stats {
+    padding: 15px 30px;
+    background: #f2f6f9;
+    border: 1px solid #e7ebee;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .description {
+    margin: 0 calc(35% - 6px);
+  }
+
+  .list_stats {
+    list-style-type: none;
+    background: #f2f6f9;
+    border: 1px solid #e7ebee;
+    padding: 20px 10px;
+  }
+  .label {
+    color: #9a9fa4;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .list_stats {
+    list-style-type: none;
+    background: #f2f6f9;
+    border: 1px solid #e7ebee;
+    padding: 20px 33px;
+  }
+}
